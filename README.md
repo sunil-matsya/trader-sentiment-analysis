@@ -5,11 +5,21 @@ This project analyzes the relationship between Bitcoin market sentiment (Fear vs
 and trader performance using historical trading data from Hyperliquid.
 
 ## Datasets Used
+
 1. Bitcoin Market Sentiment Dataset  
    - Columns: Date, Classification (Fear / Greed)
 
 2. Historical Trader Data (Hyperliquid)  
    - Columns include Account, Side, Trade Size (USD), Timestamp, Closed PnL, etc.
+
+## Data Source
+The datasets used in this project were provided as part of the assignment:
+
+- Historical Trader Data: (Google Drive link)
+- Bitcoin Fear & Greed Index: (Google Drive link)
+
+The datasets are included in this repository for reproducibility.
+
 
 ## Methodology
 - Cleaned and standardized date formats
